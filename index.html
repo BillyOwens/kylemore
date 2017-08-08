@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="themes/myApp.min.css" />
+<link href="css/newCSS.css" rel="stylesheet" type="text/css"/>
+
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="js/jquery.wikiblurb.js" type="text/javascript"></script>
+
+<script src="js/code.js" type="text/javascript"></script>
+<script src="js/buttonHandlers.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+
+<div data-role="page" id="page1"  data-theme="u">
+    
+  <div data-role="header">
+  <!-- <h1>DSGN</h1>-->
+  <a href="http://n3xtg3nov8ion.com/tutorials/" data-transition="slide">
+		<center> <img src="images/icon1.png"/center></a>
+    
+  </div>
+
+  					<p id="testDate">Click the button below to display the current date and time</p>
+			
+	
+	<button type="button"  onclick="displayDate()">Display Date/Time
+		</button>
+  
+    <ul data-role="listview" data-inset="true">
+      <li><a href="#page2" data-transition="slide">
+				<img src="images/icon.png" alt"n3xtg3nov8ion">
+					Early Life</a></li>
+				<li><a href="#page3" data-transition="slide">
+				<img src="images/icon.png" alt"n3xtg3nov8ion">
+					Height Of Power</a></li>
+				<li><a href="#page4" data-transition="slide">
+				<img src="images/icon.png" alt"n3xtg3nov8ion">
+					Pablo's Death</a></li>
+         		<li><a href="#page5" data-transition="slide">
+				<img src="images/icon.png" alt"n3xtg3nov8ion">
+					Media</a></li>
+         		<li><a href="#page6" data-transition="slide">
+				<img src="images/icon.png" alt"n3xtg3nov8ion">
+					Game</a></li>
+		</ul>		
+    </div>
+
+  <div data-role="footer">
+    <h1>&copy; N3xt Genov8ion 2017</h1>
+    
+  </div>
+</div> 
+
+<div data-role="page" id="page2" style="background-image: url('images/background.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
+    data-theme="u">
+    
+    
+  <div data-role="header">
+    <h1>Early Life</h1>
+    <a href="#page1" data-transition="slide" data-icon="home" data-iconpos="notext">Home</a>
+  </div>
+	
+	<div data-role="content" data-theme="u">			<!-- this is where the back board lies -->
+		
+		
+		
+    	<h4 style="text-align:center;">
+    	<p> <img src="images/earlypablo1.png" width"80%" height"180"  align="centre" style="position:relative; top:50%; margin-left: -18px; margin-top: -18px"
+			></p>
+			
+			 <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-iconpos="right">
+      <h3>Early Life </h3>
+     Pablo Emilio Escobar Gaviria was born on 1 December 1949, in Rionegro, in the Antioquia 
+     Department of Colombia. He was the third of seven children to Abel de Jesús Dari Escobar, 
+     a farmer, and Hermilda Gaviria, an elementary school teacher.[10] Raised in the nearby city of 
+     Medellín, Escobar is thought to have begun his criminal career as a teenager, allegedly 
+     stealing gravestones and sanding them down for resale to local smugglers. His brother,
+      Roberto Escobar, denies this, instead claiming that the gravestones came from cemetery 
+      owners whose clients had stopped paying for site care, and that he had a relative who had a 
+      monuments business.[11] Escobar's son, Sebastián Marroquín, claims his father's foray into 
+      crime began with a successful practice of selling counterfeit high school diplomas,[6] 
+      generally counterfeiting those awarded by the Universidad Autónoma Latinoamericana of 
+      Medellín. 
+     Escobar studied at the University for a short period, but left without obtaining a degree.[12]
+     
+     </div>
+     </div>
+	
+		<div class="ui-content" id="contact_infos" align="center" id="testingAjax1">
+          	
+          	<a id="testingAjax1" data-role="button" data-theme="u" data-collapsed="true"  onclick="text1()"> What age did Pablo die ? </a>
+          </div>
+    
+    <!--      	
+		<a class="twitter-timeline"  href="https://twitter.com/webbdevv"  data-widget-id="407647530051043329">Tweets by @WebDevv</a>
+		
+		-->
+		<!--<div data-role="collapsible" data-iconpos="right">
+  	 				<h3>Timetable</h3>
+  	 				 <iframe width="100%" height="500" src="http://www.dublinbus.ie/DublinBus-Mobile/" frameborder="0" allowfullscreen></iframe></center>
+		
+		</div>-->
+	</div>
+
+  
+
+ <div data-role="footer">
+    <h1>&copy; N3xt Genov8ion 2017</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#page1" data-transition="slide" data-icon="home">Home</a></li>
+        <li><a href="#page3"  data-transition="slide" data-icon="arrow-r">Politician</a></li>
+        <li><a href="#page4" data-transition="slide" data-icon="search">Death</a></li>
+          <li><a href="#page5" data-transition="slide" data-icon="search">Media</a></li>
+          <li><a href="#page6" data-transition="slide" data-icon="home">Game</a></li>
+        
+      </ul>
+   </div>
+  </div>
+</div> 
+
+<div data-role="page" id="page3" style="background-image: url('images/background.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
+    data-theme="u">
+    
+  <div data-role="header">
+  <h1> Politician </h1>
+		<a href="#page1" data-transition="slide"  data-icon="home" data-iconpos="notext">Home</a>
+  </div>
+
+	 <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-iconpos="right">
+      <h3>Height of Power </h3>
+     In 1982 Escobar was elected as an alternate member of the Chamber of Representatives of Colombia, as part of a small movement called Liberal Alternative. Earlier in the campaign he was a candidate for the Liberal Renewal Movement, but had to leave it because of the firm opposition of Luis Carlos Galán, whose presidential campaign was supported by the Liberal Renewal Movement.[19][20] Thanks to his seat in the parliament, Escobar was the official representative of the Colombian government for the swearing-in of Felipe González in Spain.[citation needed]
+
+Escobar quickly became known internationally as his drug network gained notoriety; the Medellín
+ Cartel controlled a large portion of the drugs that entered the United States, Mexico, Puerto
+  Rico, the Dominican Republic, Venezuela, and Spain. The production process was also altered,
+   with coca from Bolivia and Peru replacing the coca from Colombia, which was beginning to be 
+   seen as substandard quality than the coca from the neighboring countries. As demand for more
+    and better cocaine increased, Escobar began working with Roberto Suárez Goméz, helping to 
+    further the product to other countries in the Americas and Europe, as well as being rumored to reach as far as Asia.
+     </div>
+     </div>
+
+  <div data-role="main" class="ui-content" align="center">
+     <p> <img src="images/politician.jpg" width"80%" height"180"  align="centre" style="position:relative; top:50%; margin-left: -18px; margin-top: -18px"
+			></p>   		<!--<iframe width="80%" height="315" src="https://www.youtube.com/embed/Ih6ApEBmHic" frameborder="0" allowfullscreen></iframe>-->
+			
+				
+            <a id="testingAjax2" data-role="button" data-theme="u" data-collapsed="true"  onclick="text2()">What are sicarios?</a></div>
+         	
+
+          	<!--<a id="testingAjax3" data-role="button" data-theme="b" data-collapsed="true"  onclick="text3()">Girl Science</a>->
+          </div>-->
+       <!--  <center>	<iframe width="80%" height="600" src="http://n3xtg3nov8ion.com/todo-list-indexeddb" frameborder="0" allowfullscreen></iframe></center>
+		
+		 <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-iconpos="right">
+      <h3>Click for Links</h5>      	
+     <P>  <a href="https://www.examinations.ie/" data-transition="slide"  data-icon="home" data-iconpos="notext">Exam Revision</a>
+		</P>
+		<P><a href="https://www.imdb.com/" data-transition="slide"  data-icon="home" data-iconpos="notext">IMDB</a></p>
+			
+			<a href="https://www.n3xtg3nov8ion.com/tutorials" data-transition="slide">
+		
+			<img src="images/icon2.png" width"80%" height"180"  align="centre" style="position:relative; top:50%; margin-left: -18px; margin-top: -18px">
+        </a>
+		
+     </div>
+  </div>
+   -->
+     <div data-role="footer">
+    <h1>&copy; N3xt Genov8ion 2017</h1>
+    <div data-role="navbar">
+      <ul>
+      <li><a href="#page1" data-transition="slide" data-icon="home">Home</a></li>
+        <li><a href="#page2" data-transition="slide" data-icon="home">Early Life</a></li>
+        <li><a href="#page4" data-transition="slide" data-icon="search">Politician</a></li>
+          <li><a href="#page5" data-transition="slide" data-icon="search">Death</a></li>
+          <li><a href="#page6" data-transition="slide" data-icon="search">Game</a></li>
+      </ul>
+    </div>
+  </div>
+</div> 
+
+<div data-role="page" id="page4" style="background-image: url('images/background.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
+    data-theme="u">
+
+  <div data-role="header">
+ <h1> Death  </h1>
+		<a href="#page1" data-transition="slide"  data-icon="home" data-iconpos="notext">Home</a>
+  </div>
+
+  <div data-role="main" class="ui-content" data-theme="u" align="center">
+  	
+    
+    <p><img src="images/death.png"80%" height"180"  align="center" style="position:relative; top:50%; margin-left: -18px; margin-top: -18px">
+    	
+    	</p></h1>
+		
+		 	 <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-iconpos="right">
+      <h3>Death </h3>
+    16 months after his escape from La Catedral, Pablo Escobar died in a shootout on 2 
+    December 1993, amid another of Escobar's attempts to elude the Search Bloc.[33]
+     A Colombian electronic surveillance team, led by Brigadier Hugo Martínez,[34] used 
+     radio triangulation technology to track his radiotelephone transmissions and found 
+     him hiding in Los Olivos, a middle-class barrio in Medellín. With authorities closing 
+     in, a firefight with Escobar and his bodyguard, Alvaro de Jesús Agudelo
+      (a.k.a. "El Limón"), ensued. The two fugitives attempted to escape by running across
+       the roofs of adjoining houses to reach a back street, but both were shot and killed
+        by Colombian National Police.[8] Escobar suffered gunshots to the leg and torso, 
+        and a fatal gunshot through the ear. </div>
+     </div>
+		 	
+		 		  	<a id="testingAjax3" data-role="button" data-theme="u" data-collapsed="true"  onclick="text3()"> Pablo was killed by </a>
+         
+       
+         </div>
+         
+        <div data-role="footer">
+    <h1>&copy; N3xt Genov8ion 2017</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#page1" data-transition="slide" data-icon="home">Home</a></li>
+        <li><a href="#page2" data-transition="slide" data-icon="home">Early Life</a></li>
+        <li><a href="#page3" data-transition="slide" data-icon="arrow-r">Politician</a></li>
+        <li><a href="#page5" data-transition="slide" data-icon="search">Media</a></li>
+        <li><a href="#page6" data-transition="slide" data-icon="home">Game</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div> 
+
+<div data-role="page" id="page5" data-theme="u">	
+  <div data-role="header">
+   <h1> Photos</h1>
+   	<a href="#page1" data-transition="slide"  data-icon="home" data-iconpos="notext">Home</a>
+  </div>
+
+  <div data-role="main" class="ui-content" data-theme="u">	
+  	
+  	 <div data-role="collapsible" data-iconpos="right">
+  	 	<h3>Images</h3>
+      <a id="page5Text"><p>Escobar</p></a>
+	<a id="page5AJAXButton" data-role="button" data-icon="plus" data-theme="u">Get Data</a>
+       	<ul data-role="listview" id="page5ImageList">
+        </ul>
+        </div>
+  	
+    	<h1 style="text-align:center;"></h1>
+    		
+    	<!--<p><img src="images/foto4.jpg" width"80%" height"180"  align="centre" style="position:relative; top:50%; margin-left: -18px; margin-top: -18px"></p><-->
+		 
+  					
+	
+		  		 <div data-role="collapsible" data-iconpos="right">
+  	 				<h3>Info on Escobar</h3>
+  					<center>
+  					<div data-role="content" data-theme="u">
+  					<div id="article"></div>
+						<div id="otherWikiArticle"></div> 	</center>
+   
+    </div></div>
+
+  <div data-role="footer" data-theme="u">	
+    <h1>&copy; N3xt Genov8ion 2017</h1>
+    <div data-role="navbar">
+      <ul>
+       <li><a href="#page1" data-transition="slide" data-icon="home">Home</a></li>
+        <li><a href="#page2" data-transition="slide" data-icon="home">Early Life</a></li>
+        <li><a href="#page3" data-transition="slide" data-icon="arrow-r">Politician</a></li>
+        <li><a href="#page4" data-transition="slide" data-icon="search">Death</a></li>
+          <li><a href="#page6" data-transition="slide" data-icon="search">Game</a></li>
+      </ul>
+    </div>
+  </div>
+</div> 
+
+<div data-role="page" id="page6" style="background-image: url('images/Colombiaflag.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
+    data-theme="u">
+  <div data-role="header">
+   <h1> Game </h1>
+    <a href="#page1" data-transition="slide"  data-icon="home" data-iconpos="notext">Home</a>
+    	</a>
+		<a href="https://www.n3xtg3nov8ion.com" 
+		data-icon="gear" data-iconpos="notext" class="ui-btn-right">n3xt g3nov8ion</a>
+	</div>
+	
+	
+
+ <div data-role="main" class="ui-content" align="center">
+    <div data-role="collapsible" data-iconpos="right">
+      <h3>Click for Game</h5>      	
+    <iframe src="http://n3xtg3nov8ion.com/gameAviator" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+     </div>
+     
+     	<p><img src="images/flag.png" width"80%" height"50%"  align="center">
+     		
+     
+  </div>
+   
+		
+  <div data-role="footer">
+    <h1>&copy; N3xt Genov8ion 2017</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#page1" data-transition="slideup" data-icon="home">Home</a></li>
+        <li><a href="#page2" data-transition="slideup" data-icon="home">Early Life</a></li>
+        <li><a href="#page3" data-transition="slideup" data-icon="arrow-r">Poitician</a></li>
+        <li><a href="#page4" data-transition="slideup" data-icon="search">Death</a></li>
+          <li><a href="#page5" data-transition="slideup" data-icon="search">Media</a></li>
+           
+      </ul>
+    </div>
+  </div>
+</div> 
+
+<script type="text/javascript">
+
+    var textbox = document.getElementById("textbox");
+    var button = document.getElementById("button");
+    var tempscript = null, minchars, maxchars, attempts;
+
+    function startFetch(minimumCharacters, maximumCharacters, isRetry) {
+      if (tempscript) return; // a fetch is already in progress
+      if (!isRetry) {
+        attempts = 0;
+        minchars = minimumCharacters; // save params in case retry needed
+        maxchars = maximumCharacters;
+        button.disabled = true;
+        button.style.cursor = "wait";
+      }
+      tempscript = document.createElement("script");
+      tempscript.type = "text/javascript";
+      tempscript.id = "tempscript";
+      tempscript.src = "http://en.wikipedia.org/w/api.php"
+        + "?action=query&generator=random&prop=extracts"
+        + "&exchars="+maxchars+"&format=json&callback=onFetchComplete&requestid="
+        + Math.floor(Math.random()*999999).toString();
+      document.body.appendChild(tempscript);
+      // onFetchComplete invoked when finished
+    }
+
+    function onFetchComplete(data) {
+      document.body.removeChild(tempscript);
+      tempscript = null
+      var s = getFirstProp(data.query.pages).extract;
+      s = htmlDecode(stripTags(s));
+      if (s.length > minchars || attempts++ > 5) {
+        textbox.value = s;
+        button.disabled = false;
+        button.style.cursor = "auto";
+      } else {
+        startFetch(0, 0, true); // retry
+      }
+    }
+
+    function getFirstProp(obj) {
+      for (var i in obj) return obj[i];
+    }
+
+    // This next bit borrowed from Prototype / hacked together
+    // You may want to replace with something more robust
+    function stripTags(s) {
+      return s.replace(/<\w+(\s+("[^"]*"|'[^']*'|[^>])+)?>|<\/\w+>/gi, "");
+    }
+    function htmlDecode(input){
+      var e = document.createElement("div");
+      e.innerHTML = input;
+      return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+    }
+
+  </script>
+  
+  <script type="text/javascript">
+
+$(document).ready(function(){
+    
+    $('#article').wikiblurb();
+    
+    $('#otherWikiArticle').wikiblurb({
+	wikiURL: "http://football.wikia.com",
+	apiPath: '',
+	section: 0,
+	page: 'Pablo_Escobar',
+	removeLinks: false,	    
+	type: 'text',
+	customSelector: '',
+        callback: function() {
+            console.log('Data Loaded...');
+        }
+    });
+});
+
+</script>
+
+<script>
+	$('#page5AJAXButton').bind("click", function(){
+	//window.alert("page 5 Button Clicked!");
+	//set text box to loading message
+	$('#page5Text').attr('innerHTML','Loading Data.....');
+	//example URL for AJAX remote call taken from
+	//http://www.jquery4u.com/demos/ajax/
+	$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+{
+  tags:"Pablo_Escobar",
+  tagmode: "any",
+  format: "json"
+},
+function(data) {
+	$('#page5Text').attr('innerHTML','');
+  $.each(data.items, function(i,item){			  
+	  $('#page5ImageList').append('<li><a><img src="' + item.media.m + '"/><p>This is list item '+ i + '</p></a></li>');
+    if ( i == 20 ) return false;
+  });
+});//end of JSON Call
+
+});//end of page5AJAXButton click handler
+
+//new handlers for touch events, swap with mouseUp/mouseDown for
+//development in Dreamweaver or a web browser
+    $('#page5AJAXButton').bind('mouseDown', function () {
+//    $('#page5AJAXButton').bind('touchstart', function () {
+      //do something with your buttons here
+                                });
+    $('#page5AJAXButton').bind('mouseUp', function () {
+//    $('#page5AJAXButton').bind('touchend', function () {
+		//cleanout the tag to prevent results being duplicated
+        //do something with your buttons here
+                                });
+
+	
+</script>
+
+
+</body>
+</html>
